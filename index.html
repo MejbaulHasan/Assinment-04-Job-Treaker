@@ -27,11 +27,33 @@
     </style>
   </head>
 
-  <body>
-   
+  <body class="bg-[#eff3f7] min-h-screen">
+
+    <header class="w-[90%] mx-auto">
+      <h1 class="text-2xl font-bold text-[#002C5C] py-6">
+        Job Application Tracker
+      </h1>
+      <div class="grid grid-cols-3 lg:gap-10 gap-5">
+        <div class="bg-white p-4 rounded-l-lg">
+          <p>Total</p>
+          <p id="total" class="text-[#002C5C] font-bold text-xl">0</p>
+        </div>
+
+        <div class="bg-white p-4 rounded-lg">
+          <p>Interview</p>
+          <p id="interview" class="text-[#10B981] font-bold text-xl">0</p>
+        </div>
+
+        <div class="bg-white p-4 rounded-lg">
+          <p>Rejected</p>
+          <p id="rejected" class="text-[#EF4444] font-bold text-xl">0</p>
+        </div>
+      </div>
+      <hr class="my-5 text-[#d7d8da]" />
+    </header>
 
    
-    
+
     <script src="script/script.js"></script>
   </body>
 </html>
