@@ -52,6 +52,38 @@
       <hr class="my-5 text-[#d7d8da]" />
     </header>
 
+    <main class="w-[90%] mx-auto pb-10">
+       <div class="flex items-center justify-between mb-5">
+        <h1 class="text-[#002C5C] font-semibold text-2xl">Available Jobs</h1>
+        <p id="total-jobs" class="text-[#64748B] mt-1 text-lg">8 jobs</p>
+      </div>
+
+      <!-- all-btn -->
+      <div class="mb-6 flex gap-5">
+        <button
+          onclick="toggleStyle('all-btn')"
+          class="bg-[#3B82F6] text-white px-8 py-2 rounded-md"
+          id="all-btn"
+        >
+          All
+        </button>
+        <button
+          onclick="toggleStyle('interview-btn')"
+          class="bg-white text-[#64748B] px-5 py-2 rounded-md"
+          id="interview-btn"
+        >
+          Interview
+        </button>
+        <button
+          onclick="toggleStyle('rejected-btn')"
+          class="bg-white text-[#64748B] px-5 py-2 rounded-md"
+          id="rejected-btn"
+        >
+          Rejected
+        </button>
+      </div>
+    </main>
+
    
 
     <script src="script/script.js"></script>
